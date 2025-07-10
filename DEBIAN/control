@@ -1,0 +1,7 @@
+Package: zeus-hdd-doctor
+Version: 1.0
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: zeus <https://github.com/shampuan/>
+Description: Zeus HDD Doctor – diskleri kontrol etmeye yönelik bir yardımcı araç

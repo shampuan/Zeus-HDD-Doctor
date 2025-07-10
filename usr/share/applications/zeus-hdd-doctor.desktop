@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Zeus HDD Doctor
+Exec=zeus-hdd-doctor
+Icon=disk
+Type=Application
+Categories=Utility;
