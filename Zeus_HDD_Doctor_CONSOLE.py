@@ -11,7 +11,7 @@ init(autoreset=True)
 
 def clear_screen():
     """Terminal ekranını temizler."""
-    os.system('clear') # Linux'ta ekranı temizleme komutu 'clear'dır
+    os.system('clear')
 
 def print_header(title):
     """Program başlığını ve çerçevesini yazdırır."""
@@ -22,7 +22,7 @@ def print_header(title):
 
 def print_separator():
     """Çıktılar arasında ayırıcı bir çizgi çizer."""
-    print(Fore.BLUE + "-" * 50 + Style.RESET_ALL)
+    print(Fore.CYAN + "-" * 50 + Style.RESET_ALL)
 
 def get_disk_list_linux():
     """
@@ -335,13 +335,15 @@ def check_root_permissions():
 def main_menu():
     """Programın ana menüsünü gösterir ve seçenekleri yönetir."""
     while True:
-        print_header("ANA MENÜ")
+        print_header("Zeus HDD Doctor ANA MENÜ") 
+        print ("Lisans: GNU-GPLv3 \nBu program, @Zeus tarafından geliştirilmiştir.")
+        print_separator()
         print(f"1. Diskleri Analiz Et")
         print(f"2. Hakkında")
         print(f"3. Çıkış")
         print_separator()
 
-        choice = input(Fore.YELLOW + "Seçiminizi yapın (1-3): " + Style.RESET_ALL).strip()
+        choice = input(Fore.LIGHTYELLOW_EX + "Seçiminizi yapın (1-3): " + Style.RESET_ALL).strip()
 
         if choice == '1':
             analyze_disks()
