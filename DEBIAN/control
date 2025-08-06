@@ -1,8 +1,0 @@
-Package: zeus-hdd-doctor
-Version: 1.0.1
-Section: utils
-Priority: optional
-Architecture: all
-Maintainer: zeus <https://github.com/shampuan/>
-Description: Sistemde bağlı hafıza birimlerinin sağlığını kontrol eder ve satışa hazırlar.
-
